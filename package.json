@@ -1,0 +1,25 @@
+{
+  "name": "excel-cource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silavsale/excel-course.git"
+  },
+  "author": "Sergo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silavsale/excel-course/issues"
+  },
+  "homepage": "https://github.com/silavsale/excel-course#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
