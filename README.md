@@ -1,4 +1,4 @@
-# EXCEL APPLICATION with Vanilla JS  :badger:
+# EXCEL APPLICATION with Vanilla JS  :skunk:
 ---
 ### Webpack (imports/exports)
    * Babel :sunglasses:
