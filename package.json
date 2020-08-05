@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silavsale/excel-course.git"
+    "url": "git+https://github.com/silavsale/excel-vanilla-js-application"
   },
   "author": "Sergo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silavsale/excel-course/issues"
+    "url": "https://github.com/silavsale/excel-vanilla-js-application/issues"
   },
-  "homepage": "https://github.com/silavsale/excel-course#readme",
+  "homepage": "https://github.com/silavsale/excel-vanilla-js-application#readme",
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.11.1",
