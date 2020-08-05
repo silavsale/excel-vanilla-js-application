@@ -1,11 +1,11 @@
 # EXCEL APPLICATION with Vanilla JS
 ---
 ### Webpack (imports/exports)
-   * Babel
-   * Scss
-   * Eslint
+   * Babel :sunglasses:
+   * Scss   :clown_face:
+   * Eslint :monocle_face:
    * 2 Modes
-        - Dev
+        - Dev :zany_face:
             Dev Server, SourceMaps, Eslint, Not Minified JS & CSS
-        - Prod
+        - Prod :money_mouth_face:
             Minified Code
