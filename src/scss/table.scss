@@ -10,6 +10,7 @@
   padding-bottom: 2px;
 
   .row {
+    // background-color: #b5b5b6;
     display: flex;
     flex-direction: row;
     min-height: 20px;
@@ -23,17 +24,20 @@
     height: 100%;
     border: 1px solid $border-color;
     background: #f8f9fa;
+    background-color: #28e60f;
     border-top: none;
   }
   .row-data {
     display: flex;
+    background-color: rgb(27, 102, 5);
   }
 
   .column {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f8f9fa;
+    // background: #f8f9fa;
+    background: #883b17;
     min-width: 40px;
     width: $cell-width;
     border: 1px solid $border-color;
@@ -52,6 +56,7 @@
     color: #111;
     white-space: nowrap;
     outline: none;
+    background-color: gold;
 
     &.selected {
       border: none;
