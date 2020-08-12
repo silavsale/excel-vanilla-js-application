@@ -13,12 +13,10 @@ export class ExcelComponent extends DomListener {
 	}
 
 	init() {
-		// console.log('$root ===', this.$root)
 		this.initDOMListeners()
 	}
 
 	destroy() {
-		// this.removeDOMListeners()
 		this.removeDOMListeners()
 	}
 }

@@ -35,9 +35,6 @@
     "arrow-parens": "off",
     "linebreak-style": 0,
     "require-jsdoc": "off",
-    "no-mixed-spaces-and-tabs": [2, "smart-tabs"]
+    "no-mixed-spaces-and-tabs": "off"
   }
-  // "plugins": [
-  //     "prettier"
-  // ]
 }

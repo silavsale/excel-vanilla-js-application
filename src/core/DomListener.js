@@ -12,13 +12,11 @@ export class DomListener {
 	}
 
 	initDOMListeners() {
-		// console.log(this.listeners, this.$root)
 		this.listeners.forEach(listener => {
 			const method = getMethodName(listener)
 			if (!this[method]) {
 				throw new Error(`Method is not implemented in ${this.name} Component`)
 			}
-			console.log(method)
 			this[method] = this[method].bind(this)
 			// the same thing thet addEventListener
 			this.$root.on(listener, this[method])
