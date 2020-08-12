@@ -10,13 +10,13 @@
   padding-bottom: 2px;
 
   .row {
-    // background-color: #b5b5b6;
     display: flex;
     flex-direction: row;
     min-height: 20px;
     height: $row-height;
   }
   .row-info {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,7 @@
   }
 
   .column {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,8 +61,41 @@
 
     &.selected {
       border: none;
-      outline: 2px solid #3c74ff;
+      outline: 2px solid $primary-color;
       z-index: 2;
+    }
+  }
+
+  .col-resize,
+  .row-resize {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    background: $primary-color;
+    z-index: 1000;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+
+  .col-resize {
+    top: 0;
+    bottom: 0;
+    width: 4px;
+
+    &:hover {
+      cursor: col-resize;
+    }
+  }
+
+  .row-resize {
+    left: 0;
+    bottom: 0;
+    height: 4px;
+
+    &:hover {
+      cursor: row-resize;
     }
   }
 }
