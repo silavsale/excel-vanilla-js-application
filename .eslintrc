@@ -35,6 +35,7 @@
     "arrow-parens": "off",
     "linebreak-style": 0,
     "require-jsdoc": "off",
-    "no-mixed-spaces-and-tabs": "off"
+    "no-mixed-spaces-and-tabs": "off",
+    "object-curly-spacing": "off"
   }
 }
